@@ -1,0 +1,31 @@
+.list {
+  .accordion--list {
+    max-width: 550px;
+    margin: 1.5em auto;
+    .accordion__question {
+      &:last-child {
+        border-bottom: 1px solid $dark-gray;
+      }
+    }
+    .accordion__header {
+      border-top: 1px solid $dark-gray;
+      display: inline-block;
+      line-height: 2.3;
+      padding: 0.5em 1em;
+      width: 100%;
+    }
+    .accordion__content {
+      display: none;
+      padding: 1em;
+    }
+  }
+  h2 {
+    font-size: 1.5em;
+    span {
+      float: right;
+      color: $blue;
+      font-weight: bold;
+      font-family: 'futura', sans-serif;
+    }
+  }
+}

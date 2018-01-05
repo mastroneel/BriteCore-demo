@@ -1,0 +1,82 @@
+// ******
+// Colors
+// ******
+$blue: #3d8ea7;
+$gray-blue: #374f54;
+$light-gray: #f3f3f3;
+$dark-gray: #646464;
+$black: #303030;
+$white: #fff;
+
+
+// *****
+// Fonts
+// *****
+@font-face {
+  font-family: proxima;
+  src: url("../fonts/proximanova.ttf");
+}
+
+@font-face {
+  font-family: futura;
+  src: url("../fonts/futurabold.otf");
+}
+
+// **************
+// General styles
+// **************
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Proxima', sans-serif;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: $black;
+}
+
+h2 {
+  color: $dark-gray;
+}
+
+// Import page sections
+@import 'list';
+
+
+
+
+
+// **********
+// Map styles
+// **********
+
+// #us-map{
+//   display: block;
+//   position: absolute;
+//   top: 0;
+  //left: 0;
+// width: 100%;
+//   height: 100%;
+// }
+
+path {
+  fill: #3d8ea7 !important;
+}
+
+path:hover, circle:hover {
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #374f54 !important;
+  cursor: pointer;
+}
+
+// #path67 {
+//   fill: none !important;
+//   stroke: #A9A9A9 !important;
+//   cursor: default;
+// }
