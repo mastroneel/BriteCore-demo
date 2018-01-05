@@ -40,7 +40,7 @@ h1 {
   color: $black;
 }
 
-h2 {
+h2, p {
   color: $dark-gray;
 }
 
@@ -66,6 +66,7 @@ h2 {
 
 path {
   fill: #3d8ea7 !important;
+  transition: 0.4s;
 }
 
 path:hover, circle:hover {
@@ -73,6 +74,11 @@ path:hover, circle:hover {
   stroke-linejoin: round;
   fill: #374f54 !important;
   cursor: pointer;
+}
+
+path.hovered {
+  fill: #374f54 !important;
+  transition: 0.4s;
 }
 
 // #path67 {
