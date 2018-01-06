@@ -19,6 +19,32 @@ h1 {
 h2, p {
   color: #646464; }
 
+svg {
+  float: right;
+  display: block;
+  margin: 0 auto; }
+
+path {
+  fill: #dedede !important;
+  transition: 0.4s; }
+
+path.active {
+  fill: #3d8ea7 !important;
+  transition: 0.4s; }
+
+path.active:hover {
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #374f54 !important;
+  cursor: pointer; }
+
+path.active.hovered {
+  fill: #374f54 !important;
+  transition: 0.4s; }
+
+.all-list.invisible {
+  opacity: 0; }
+
 .list {
   z-index: 10; }
   .list .accordion--list {
@@ -345,27 +371,5 @@ form button {
   text-transform: uppercase;
   margin-left: 20px;
   margin-bottom: 20px; }
-
-svg {
-  width: 95%;
-  float: right; }
-
-path {
-  fill: #dedede !important;
-  transition: 0.4s; }
-
-path.active {
-  fill: #3d8ea7 !important;
-  transition: 0.4s; }
-
-path.active:hover {
-  stroke-width: 2px;
-  stroke-linejoin: round;
-  fill: #374f54 !important;
-  cursor: pointer; }
-
-path.active.hovered {
-  fill: #374f54 !important;
-  transition: 0.4s; }
 
 /*# sourceMappingURL=app.css.map */

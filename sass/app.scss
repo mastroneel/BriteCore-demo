@@ -45,58 +45,7 @@ h2, p {
 }
 
 // Import page sections
+@import 'map';
 @import 'list';
 @import 'state-lists';
 @import 'form';
-
-
-
-
-// **********
-// Map styles
-// **********
-
-// #us-map{
-//   display: block;
-//   position: absolute;
-//   top: 0;
-  //left: 0;
-// width: 100%;
-//   height: 100%;
-// }
-
-svg {
-  width: 95%;
-  float: right;
-  // position: absolute;
-  // top: 0;
-  // right: 0;
-}
-
-path {
-  fill: #dedede !important;
-  transition: 0.4s;
-}
-
-path.active {
-  fill: #3d8ea7 !important;
-  transition: 0.4s;
-}
-
-path.active:hover {
-  stroke-width:2px;
-  stroke-linejoin: round;
-  fill: #374f54 !important;
-  cursor: pointer;
-}
-
-path.active.hovered {
-  fill: #374f54 !important;
-  transition: 0.4s;
-}
-
-// #path67 {
-//   fill: none !important;
-//   stroke: #A9A9A9 !important;
-//   cursor: default;
-// }
