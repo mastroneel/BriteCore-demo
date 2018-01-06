@@ -1,0 +1,44 @@
+form {
+  .agentagency {
+    margin-left: 20px;
+  }
+  .ag {
+    margin-left: 40px;
+  }
+  input, option, select {
+    width: 100%;
+  }
+  select {
+    background: none;
+  }
+  p {
+    margin-bottom: 2px;
+    margin-top: 10px;
+  }
+  h6 {
+    margin-left: 20px;
+    display: block;
+    margin-top: -20px;
+  }
+  .col-xs-12 {
+    width: 100%;
+    .center-row {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  a {
+    display: block;
+    margin: 20px;
+  }
+  button {
+    color: $white;
+    background-color: $blue;
+    border: 1px solid $blue;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}

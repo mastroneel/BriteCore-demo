@@ -26,7 +26,7 @@ $white: #fff;
 // General styles
 // **************
 body {
-  padding: 0;
+  padding: 2em;
   margin: 0;
   font-family: 'Proxima', sans-serif;
 }
@@ -46,7 +46,8 @@ h2, p {
 
 // Import page sections
 @import 'list';
-
+@import 'state-lists';
+@import 'form';
 
 
 
@@ -64,19 +65,32 @@ h2, p {
 //   height: 100%;
 // }
 
+svg {
+  width: 95%;
+  float: right;
+  // position: absolute;
+  // top: 0;
+  // right: 0;
+}
+
 path {
+  fill: #dedede !important;
+  transition: 0.4s;
+}
+
+path.active {
   fill: #3d8ea7 !important;
   transition: 0.4s;
 }
 
-path:hover, circle:hover {
+path.active:hover {
   stroke-width:2px;
   stroke-linejoin: round;
   fill: #374f54 !important;
   cursor: pointer;
 }
 
-path.hovered {
+path.active.hovered {
   fill: #374f54 !important;
   transition: 0.4s;
 }
