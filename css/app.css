@@ -20,6 +20,7 @@ h2, p {
   color: #646464; }
 
 svg {
+  width: 95%;
   float: right;
   display: block;
   margin: 0 auto; }
@@ -69,6 +70,9 @@ path.active.hovered {
       .list .accordion--list .accordion__content h1 {
         font-size: 1.5em;
         text-align: left; }
+      .list .accordion--list .accordion__content .active-agents {
+        text-align: center;
+        font-size: 18px; }
       .list .accordion--list .accordion__content button {
         color: #fff;
         background-color: #3d8ea7;
@@ -83,6 +87,10 @@ path.active.hovered {
       color: #3d8ea7;
       font-weight: bold;
       font-family: 'futura', sans-serif; }
+  .list a, .list a:hover, .list a:visited {
+    color: #3d8ea7;
+    display: block;
+    margin-bottom: 10px; }
   .list .plus-minus-toggle {
     height: 18px;
     position: relative;
