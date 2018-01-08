@@ -29,3 +29,18 @@ path.active.hovered {
   fill: #374f54 !important;
   transition: 0.4s;
 }
+
+// Media queries
+
+// Hides mobile map for larger screens and desktop map for smaller screens
+@media (min-width: 768px) {
+  .mobile-map {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .map {
+    display: none;
+  }
+}

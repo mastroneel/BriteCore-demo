@@ -1,3 +1,5 @@
+
+$( document ).ready(function() {
 var accordionHeader = $('.accordion__header'),
   accordionContent = $('.accordion__content'),
   accordionIcon = $('.accordion__header span');
@@ -448,4 +450,6 @@ $(".open-list-wi").click(function () {
 $(".btn-close").click(function () {
   $(".side-menu-wi").removeClass('open', 2000);
   $('#WI').removeClass('hovered');
+});
+
 });

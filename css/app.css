@@ -43,11 +43,18 @@ path.active.hovered {
   fill: #374f54 !important;
   transition: 0.4s; }
 
+@media (min-width: 768px) {
+  .mobile-map {
+    display: none; } }
+@media (max-width: 767px) {
+  .map {
+    display: none; } }
 .all-list.invisible {
   opacity: 0; }
 
 .list {
-  z-index: 10; }
+  z-index: 10;
+  margin-top: 15px; }
   .list .accordion--list {
     max-width: 550px;
     margin: 1.5em auto; }
