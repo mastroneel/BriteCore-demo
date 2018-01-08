@@ -33,14 +33,14 @@ path.active.hovered {
 // Media queries
 
 // Hides mobile map for larger screens and desktop map for smaller screens
-@media (min-width: 768px) {
-  .mobile-map {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .map {
-    display: none;
-  }
-}
+// @media (min-width: 768px) {
+//   .mobile-map {
+//     display: none;
+//   }
+// }
+//
+// @media (max-width: 767px) {
+//   .map {
+//     display: none;
+//   }
+// }
